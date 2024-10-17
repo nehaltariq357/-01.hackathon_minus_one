@@ -1,0 +1,184 @@
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    background-color: black;
+    padding-left: 1px;
+    padding-right: 5px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 950px;
+    font-family: sans-serif;
+    color: white;
+}
+.yellow{
+    color: rgb(243, 113, 20);
+    margin-left: 20px;
+}
+.left-side h1{
+    margin-left: 20px;
+}
+.about-me{
+    margin-left: 40px;
+}
+
+
+.container2 {
+    background-color: rgb(46, 42, 42);
+    width: 90%;
+    height: 220px;
+    position: relative;
+}
+
+.left-side .profile {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.left-side img {
+    border-radius: 100px;
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+    object-position: top;
+    border: 10px solid black;
+    margin-right: 20px;
+    margin-left: 10px;
+    position: relative;
+    z-index: 2;
+}
+
+.about-me {
+    max-width: 60%;
+    margin-top: -90px;
+    z-index: 1;
+    margin-bottom: 90px;
+}
+
+.about-me h1, .about-me p {
+    margin: 0;
+    padding: 0;
+}
+
+.white {
+    background-color: aliceblue;
+    width: 90%;
+    height: 90px;
+    position: relative;
+    z-index: 0;
+    margin-top: -30px;
+}
+
+
+.content-section {
+    display: flex;
+    width: 90%;
+    margin-top: 20px;
+}
+
+
+.left-side-section {
+    background-color: rgb(46, 42, 42);
+    width: 35%;
+    height: 600px; 
+}
+
+
+.right-side-section {
+   
+    width: 70%;
+    height: 600px;
+}
+.right-side-section{
+  
+    font-family: sans-serif;
+    color: white;
+}
+
+.edu h1{
+    color: rgb(243, 113, 20);
+margin-left: 120px;  
+
+}
+
+.pro h1{
+    color: rgb(243, 113, 20);
+    margin-left: 99px;  
+}
+
+.edu p{
+    margin-left: 20px;
+}
+
+.pro{
+    margin-left: 20px;
+}
+
+.span{
+    margin-left: 80px;
+}
+
+.span1{
+    margin-left: 240px;
+}
+
+
+/* left sided */
+
+.left-side-section{
+    font-family: sans-serif;
+    color: white;
+}
+
+.con{
+margin-left: 20px;
+}
+
+.skill{
+    margin-left: 20px;
+}
+
+.lan{
+    margin-left: 10px;
+}
+
+
+.con h1{
+    color: rgb(243, 113, 20);
+    }
+    
+    .skill h1{
+        color: rgb(243, 113, 20);
+    }
+    
+    .lan h1{
+        color: rgb(243, 113, 20);
+    }
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
