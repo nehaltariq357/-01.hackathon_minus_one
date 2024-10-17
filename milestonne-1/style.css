@@ -158,27 +158,185 @@ margin-left: 20px;
     .lan h1{
         color: rgb(243, 113, 20);
     }
-    
-    
 
 
+    /* responsivness */
+
+/* @media not | only mediatype and (expressions){
+    css code
+} */
+
+/* 
+Breakpoint prefix	Minimum width	CSS
+sm	640px	@media (min-width: 640px) { ... }
+md	768px	@media (min-width: 768px) { ... }
+lg	1024px	@media (min-width: 1024px) { ... }
+xl	1280px	@media (min-width: 1280px) { ... }
+2xl	1536px	@media (min-width: 1536px) { ... }
+
+ */
 
 
+   
+.container {
+    width: 100%; 
+    margin: 0 auto;
+    padding: 20px 10px;
+    height: auto;
+}
 
+/* for mobile */
+@media (max-width: 640px) {
+    .container {
+        width: 90%;
+    }
 
+    .left-side h1 {
+        font-size: 18px; 
+        margin-left: 20px;
+    }
 
+    .yellow {
+        font-size: 18px; 
+        margin-left: 10px;
+    }
 
+    .about-me {
+        margin-left: 10px;
+        font-size: 16px;
+    }
 
+    .profile img {
+        width: 120px;
+        height: 120px;
+    }
 
+    .edu h1, .pro h1, .con h1, .skill h1, .lan h1 {
+        font-size: 20px;
+        margin-left: 10px;
+    }
 
+    .edu p, .pro p, .con p, .skill ul, .lan ul {
+        font-size: 14px;
+    }
 
+    .content-section {
+        flex-direction: column;
+        width: 100%;
+    }
 
+    .left-side-section, .right-side-section {
+        width: 100%;
+        height: auto;
+    }
+}
 
+/* for tablet */
+@media (min-width: 641px) and (max-width: 1024px) {
+    .container {
+        width: 80%; /* Adjust container width */
+    }
 
+    .left-side h1 {
+        font-size: 28px; 
+    }
 
+    .yellow {
+        font-size: 22px;
+    }
 
+    .profile img {
+        width: 150px;
+        height: 150px;
+    }
 
+    .about-me {
+        font-size: 18px;
+    }
 
+    .edu h1, .pro h1, .con h1, .skill h1, .lan h1 {
+        font-size: 24px;
+    }
 
+    .edu p, .pro p, .con p, .skill ul, .lan ul {
+        font-size: 16px;
+    }
 
+    .content-section {
+        flex-direction: row; 
+        width: 100%;
+    }
+
+    .left-side-section {
+        width: 40%;
+    }
+
+    .right-side-section {
+        width: 60%;
+    }
+}
+
+/* for laptop */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .container {
+        width: 70%;
+    }
+
+    .left-side h1 {
+        font-size: 32px; 
+    }
+
+    .yellow {
+        font-size: 26px;
+    }
+
+    .profile img {
+        width: 170px;
+        height: 170px;
+    }
+
+    .about-me {
+        font-size: 20px;
+    }
+
+    .edu h1, .pro h1, .con h1, .skill h1, .lan h1 {
+        font-size: 26px;
+    }
+
+    .edu p, .pro p, .con p, .skill ul, .lan ul {
+        font-size: 18px;
+    }
+}
+
+/* for desktop */
+@media (min-width: 1281px) {
+    .container {
+        width: 50%;
+    }
+
+    .left-side h1 {
+        font-size: 36px;
+    }
+
+    .yellow {
+        font-size: 28px;
+    }
+
+    .profile img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .about-me {
+        font-size: 22px;
+    }
+
+    .edu h1, .pro h1, .con h1, .skill h1, .lan h1 {
+        font-size: 30px;
+    }
+
+    .edu p, .pro p, .con p, .skill ul, .lan ul {
+        font-size: 20px;
+    }
+}
 
